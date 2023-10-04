@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-header {
+    transition: all 0.1s ease;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 26px;
+    padding: 0 15px;
+    border: 2px solid;
+    border-color: #dadada;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.header-input {
+    padding: 4px 0 4px 10px;
+    transition: all 0.1s ease;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 26px;
+    padding: 0 15px;
+    border: 2px solid;
+    border-color: #dadada;
+    text-decoration: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.navbar {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 900;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav-link {
+    color: #222;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.cover_image {
+      background-color: rgb(244, 244, 244);
+      width: 100px;
+      height: 79px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px inset;
+      display: block;
+      border-radius: 2px;
+      overflow: hidden;
+}
+.title_colum {
+      align-self: center;
+      flex: 1 1 0%;
+}
+.jam_title_header {
+      font-size: 32px;
+      margin: 0px;
+}
+.jam_title_header a {
+       color: inherit;
+    text-decoration: none;
+}
+.jam_host_header {
+        margin-top: 5px;
+    padding-bottom: 4px;
+    color: rgb(133, 133, 133);
+    font-size: 16px;
+}
+
+.jam_host_header a {
+    color: rgb(96, 96, 96);
+}
+.stats_container {
+    display: flex;
+    gap: 30px;
+}
+.stats_container {
+        display: flex;
+    gap: 30px;
+}
+.stat_box {
+    text-align: center;
+}
+.stat_value {
+        font-size: 30px;
+    font-weight: bold;
+    color: rgb(67, 67, 67);
+}
+.stat_label {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+.border-line{
+    border-bottom: 1px solid;
+    border-color: #dadada;
+}
+.navbar-three {
+    padding-left: 110px;
+    background-color: #F4F4F4;
+}
+.content {
+    display: flex;
+}
+.content__left {
+    margin-right: 20px;
+}
+.content__right-descr {
+    margin-bottom: 20px;
+}
+.content__link{
+    color: #da2c49;
+}
+.table  {
+    width: 800px;
+    border: 1px solid #dadada;
+}
+
+thead {
+    background-color: #dadada;
+}
